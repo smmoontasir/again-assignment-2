@@ -7,8 +7,22 @@ body{
     background: rgb(0, 0, 0);
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     font-family: Inter;
-    margin: 57px auto;
-    max-width: 72.5%;
+    margin: 0px auto;
+    max-width: 100%;
+    /* border: 1px solid red; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+.gradi{
+    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(40, 40, 40, 98) 100%);
+}
+header{
+    /* border: 1px solid green; */
+    padding-bottom: 77px;
+    max-width: 80%;
+    margin: 0px auto;   
+
 }
 
 /* text styles */
@@ -51,6 +65,9 @@ body{
 .t-mid-white{
     color: rgba(255, 255, 255, 0.5);
 }
+.text-align{
+    text-align: center;
+}
 
 /* flex styles */
 .flex{
@@ -79,9 +96,7 @@ body{
 }
 
 /* header navbar */
-.gradi{
-    background: linear-gradient(180.00deg, rgb(0, 0, 0),rgba(40, 40, 40, 98) 100%);
-}
+
 nav > ul >li{
     list-style: none;
     padding: 8px 20px;
@@ -105,6 +120,13 @@ nav > ul > li > a{
 }
 .banner-rest{
     padding-left: 167px;
+}
+.banner-image{
+    max-width: 100%;
+    margin: 0px auto;
+}
+,.banner-button-1 > img{
+    max-width: 100%;
 }
 .button-primary{
     border-radius: 42px;
@@ -156,12 +178,35 @@ nav > ul > li > a{
 #ban-btwn-2{
 
     position: absolute;
-    left: 1107px;
+    left: 1000px;
     top: 360px;
     /* width: 193px; */
     
 }
 /* banner end */
+/* main part */
+
+main{
+    /* max-width: 100%; */
+    background-color: black;
+    margin: 0px;
+}
+/* habit section */
+ .change-habit{
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 100px 0px;
+ }
+ .habit-pic > img{
+    border-radius: 100px;
+ }
+ .habit-all-card{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding-top: 54px;
+ }
+/* run an extra mile section */
 
 
 
@@ -200,10 +245,13 @@ nav > ul > li > a{
     }
     #ban-btwn-2{
     position: absolute;
-    left: 310px;
-    top: 1000px;
+    left: 250px;
+    top: 1280px;
     }
     /* banner end */
-
+    /* habit section */
+    .habit-all-card{
+    grid-template-columns: repeat(1, 1fr);
+     }
     
 }
