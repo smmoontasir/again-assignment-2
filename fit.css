@@ -227,6 +227,17 @@ main{
     padding: 41px 20px 41px 54px;
 }
 /* BMI text */
+.bmi-t-section{
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 20px 0px;
+}
+/* BMI Calculator */
+.bmi-calculator{
+    max-width: 100%;
+    margin: 0px auto;
+    background: rgb(34, 34, 34); 
+}
 
 
 
