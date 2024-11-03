@@ -123,7 +123,7 @@ nav > ul > li > a{
 }
 .banner-image{
     max-width: 100%;
-    margin: 0px auto;
+    /* margin: 0px auto; */
 }
 ,.banner-button-1 > img{
     max-width: 100%;
@@ -207,6 +207,26 @@ main{
     padding-top: 54px;
  }
 /* run an extra mile section */
+.extra-mile{
+    max-width: 80%;
+    margin: 0px auto;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    gap: 145px;
+
+}
+.extra-mile-pic {
+    max-width: 366px;
+    max-height: 312px;
+}
+.extra-mile-pic > img{
+    max-width: 100%;
+    border-radius: 18px;
+}
+.extra-mile-content{
+    padding: 41px 20px 41px 54px;
+}
+/* BMI text */
 
 
 
@@ -253,5 +273,17 @@ main{
     .habit-all-card{
     grid-template-columns: repeat(1, 1fr);
      }
+     /* extra mile section */
+     .extra-mile{
+        gap: 15px;
+    
+    }
+     .extra-mile-pic {
+        max-width: 287px;
+        max-height: 170px;
+        padding-bottom: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
     
 }
