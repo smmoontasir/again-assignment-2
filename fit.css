@@ -69,6 +69,7 @@ header{
     text-align: center;
 }
 
+
 /* flex styles */
 .flex{
     display: flex;
@@ -93,6 +94,12 @@ header{
 }
 .flex-row{
     flex-direction: row;
+}
+.flex-reverse{
+    justify-content: end;
+}
+.align-last{
+    align-items: flex-end;
 }
 
 /* header navbar */
@@ -299,7 +306,61 @@ table{
     gap: 4px;
 }
 /* meet our team text */
-
+/* Meet our team whole part */
+.meet-team{
+    max-width: 80%;
+    margin: 0px auto;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);   
+}
+.meet-1st{
+    border-radius: 18px;
+    background: url(./images/trainer1.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 272px;
+}
+.meet-2st{
+    border-radius: 18px;
+    background: url(./images/trainer2.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 272px;
+}
+.meet-3st{
+    border-radius: 18px;
+    background: url(./images/trainer3.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 272px;
+}
+.meet-4st{
+    border-radius: 18px;
+    background: url(./images/trainer4.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 272px;
+}
+.meet-5st{
+    border-radius: 18px;
+    background: url(./images/trainer5.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 272px;
+}
+.meet-6st{
+    border-radius: 18px;
+    background: url(./images/trainer6.png);
+    background-size: cover;
+    max-width: 100%;
+    height: 272px;
+}
+.all-meet{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
 
 
 
@@ -363,5 +424,9 @@ table{
     .bmi-calculator{
         grid-template-columns: repeat(1,1fr);
         padding: 0px;
+    }
+    /* meet our whole team part */
+    .all-meet{
+        grid-template-columns: repeat(1,1fr);
     }
 }
