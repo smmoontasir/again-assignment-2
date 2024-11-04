@@ -415,6 +415,17 @@ footer ul> li > a{
     grid-template-columns: repeat(3,1fr);
     gap: 102px;
 }
+.extra{
+    max-width: 80%;
+    margin: 55px auto;
+    background: url(./images/pexels-victorfreitas-841130.jpg);
+    background-size: cover;
+    padding: 20px;
+    border-radius: 20px;
+}
+.plan-card{
+    gap: 50px;
+}
 
 
 
