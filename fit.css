@@ -56,6 +56,9 @@ header{
 .text-78 {
     font-size: 4.875rem;
 }
+.text-70{
+    font-size: 4.375rem;
+}
 .t-red{
     color: rgb(230, 83, 60);
 }
@@ -361,7 +364,44 @@ table{
     grid-template-columns: repeat(3,1fr);
     gap: 20px;
 }
-
+/* footer section */
+footer{
+    max-width: 100%;
+    margin: 0px auto;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 88px;
+}
+.foot-main{
+    max-width: 80%;
+    margin: 0px auto;
+}
+footer ul> li {
+    list-style: none;
+    padding-left: 0px;
+}
+footer ul> li > a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.44rem;
+    text-align: start;
+}
+.foot-2st-col, .foot-3st-col, .foot-1st-col{
+    display: flex;
+    flex-direction: column;
+    align-items: start
+    justify-content: left;
+}
+.foot-1st-col > h1{
+   line-height: 20px;
+}
+.foot-1st-col > p{
+   line-height: 20px;
+}
+.foot-1st{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 102px;
+}
 
 
 
@@ -428,5 +468,10 @@ table{
     /* meet our whole team part */
     .all-meet{
         grid-template-columns: repeat(1,1fr);
+    }
+    /* footer section */
+    .foot-1st{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
     }
 }
