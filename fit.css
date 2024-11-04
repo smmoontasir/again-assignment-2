@@ -130,6 +130,7 @@ nav > ul > li > a{
 }
 .banner-rest{
     padding-left: 167px;
+    position: relative;
 }
 .banner-image{
     max-width: 100%;
@@ -182,15 +183,15 @@ nav > ul > li > a{
     position: absolute;
     /* width: 206px;
     height: 96px; */
-    left: 800px;
-    top: 600px;
+    left: 100px;
+    bottom: 43px;
     
 }
 #ban-btwn-2{
 
     position: absolute;
-    left: 1000px;
-    top: 360px;
+    left: 380px;
+    bottom: 357px;
     /* width: 193px; */
     
 }
@@ -445,7 +446,9 @@ footer ul> li > a{
         display: contents;
     }
     /* banner */
-    #ban-btwn-1{
+
+
+    /* #ban-btwn-1{
     position: absolute;
     left: 32px;
     top: 1400.38px;
@@ -454,7 +457,9 @@ footer ul> li > a{
     position: absolute;
     left: 250px;
     top: 1280px;
-    }
+    } */
+
+
     /* banner end */
     /* habit section */
     .habit-all-card{
@@ -475,7 +480,7 @@ footer ul> li > a{
     /* BMI calculator */
     .bmi-calculator{
         grid-template-columns: repeat(1,1fr);
-        padding: 0px;
+        padding-left: 30px;
     }
     /* meet our whole team part */
     .all-meet{
