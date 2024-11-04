@@ -312,7 +312,7 @@ table{
 /* Meet our team whole part */
 .meet-team{
     max-width: 80%;
-    margin: 0px auto;
+    margin: 88px auto;
     padding: 20px;
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);   
@@ -323,13 +323,16 @@ table{
     background-size: cover;
     max-width: 100%;
     height: 272px;
+    position: relative;
 }
+
 .meet-2st{
     border-radius: 18px;
     background: url(./images/trainer2.png);
     background-size: cover;
     max-width: 100%;
     height: 272px;
+    position: relative;
 }
 .meet-3st{
     border-radius: 18px;
@@ -337,6 +340,7 @@ table{
     background-size: cover;
     max-width: 100%;
     height: 272px;
+    position: relative;
 }
 .meet-4st{
     border-radius: 18px;
@@ -344,6 +348,7 @@ table{
     background-size: cover;
     max-width: 100%;
     height: 272px;
+    position: relative;
 }
 .meet-5st{
     border-radius: 18px;
@@ -351,6 +356,7 @@ table{
     background-size: cover;
     max-width: 100%;
     height: 272px;
+    position: relative;
 }
 .meet-6st{
     border-radius: 18px;
@@ -358,6 +364,12 @@ table{
     background-size: cover;
     max-width: 100%;
     height: 272px;
+    position: relative;
+}
+.journey{
+    position: absolute;
+    left: 5px;
+    bottom: 5px;
 }
 .all-meet{
     display: grid;
@@ -369,7 +381,7 @@ footer{
     max-width: 100%;
     margin: 0px auto;
     background: rgba(255, 255, 255, 0.1);
-    margin-top: 88px;
+    
 }
 .foot-main{
     max-width: 80%;
